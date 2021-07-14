@@ -1,4 +1,4 @@
-package stack;
+// Java program to implement basic stack operations
 
 public class Stack {
 	static final int MAX = 1000;
@@ -50,6 +50,7 @@ public class Stack {
 		s.push(20);
 		s.push(30);
 		System.out.println(s.pop() + " Popped from stack");
+		System.out.println("Top element is: " + s.peek());
 
 	}
 
